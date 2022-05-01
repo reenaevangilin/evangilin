@@ -1,0 +1,9 @@
+ library(readxl)
+> reena_data <- read_excel("C:/Users/Dell/Desktop/reena data.xlsx")
+> View(reena_data)
+> reena<-read_excel("C:/Users/Dell/Desktop/reena data.xlsx")
+> mean(reena$max_price)
+[1] 5184.211
+> sd(reena$min_price)
+[1] 1886.564
+> 
